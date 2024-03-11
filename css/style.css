@@ -23,6 +23,9 @@ img {
 }
 
 .r-part{
+    display: flex;
+    flex-direction: row;
+
     width: 80%;
 
     /* Debug */
@@ -32,11 +35,30 @@ img {
 
 }
 
+.contact {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.contact-info {
+    width: 80%;
+    border: 1px dashed black;
+}
+
 .l-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 20%;
 
 
     background-color: chocolate;
+}
+
+.user-avatar{
+
+
+
 }
 
 .all-main{
