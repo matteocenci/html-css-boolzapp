@@ -13,5 +13,50 @@ img {
 
 
 .all-header{
+    display: flex;
+    flex-direction: row;
     width: 100%;
+
+    /* Debug */
+    height: 7vh;
+    background-color: aqua;
+}
+
+.r-part{
+    width: 80%;
+
+    /* Debug */
+    background-color: springgreen;
+
+
+
+}
+
+.l-part{
+    width: 20%;
+
+
+    background-color: chocolate;
+}
+
+.all-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    /* Debug */
+    height: 93vh;
+    /* background-color: aqua; */
+}
+
+.l-part-main {
+    width: 20%;
+
+    background-color: brown;
+}
+
+.r-part-main {
+    width: 80%;
+
+    background-color: aqua;
 }

@@ -1,16 +1,48 @@
 @media screen and (max-width: 468px) {
-    
-    
+    .l-part{
+        display: none;
+    }
+
+    .l-part-main {
+        display: none;
+    }
+
+    .r-part{
+        width: 100%;
+    }
+
+    .r-part-main {
+        width: 100%;
+    }
 }
 
 
 @media screen and (min-width: 768px) {
-    
-    
+
+
 }
 
 
 @media screen and (min-width: 992px) {
-    
-    
+
+    .all{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        height: 100vh;
+        padding: 50px;
+    }
+
+    .all-header{
+        width: 100%;
+    }
+
+    .all-main{
+        height: 85vh;
+        
+
+    }
+
+
 }
