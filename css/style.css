@@ -77,8 +77,27 @@ img {
     background-color: brown;
 }
 
+.people {
+    width: 100%;
+    height: calc(100% / 8);
+    border: 1px solid black;
+}
+
 .r-part-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 80%;
 
     background-color: aqua;
 }
+
+.all-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    height: 10vh;
+    background-color: violet;
+}
+
