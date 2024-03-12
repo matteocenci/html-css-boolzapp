@@ -31,7 +31,7 @@ img {
     width: calc(100% - 112px);
 
     /* Debug */
-    background-color: #CECECE;
+    background-color: #E4E4E4;
 
 
 
@@ -64,7 +64,7 @@ img {
     width: 112px;
 
 
-    background-color: #CECECE;
+    background-color: #E4E4E4;
 }
 
 .user-avatar img {
@@ -131,10 +131,34 @@ img {
     /* background-color: brown; */
 }
 
-.people {
+.peoples {
     width: 100%;
-    height: 129px;
-    border: 1px solid black;
+    height: 86.3vh;
+    border-right: 1px solid #A09E9C;
+    
+    
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 105px;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid #A09E9C;
+    
+}
+
+
+.people img {
+    margin-left: 18px;
+    margin-top: 3px;
+    width: 70%;
+    aspect-ratio: 1;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .l-part-main div {
@@ -284,4 +308,18 @@ img {
     color: #A09E9C;
     font-size: 30px;
 }
+
+.footer-left-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+}
+
+.footer-left-part i {
+    font-size: 30px;
+    color: #A09E9C;
+}
+
+
 
