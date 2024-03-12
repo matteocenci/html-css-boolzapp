@@ -93,12 +93,48 @@ img {
 .r-part-main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
+    
     width: calc(100% - 115px);
     
 
     background-color: aqua;
 }
+
+.messages{
+    
+    width: 100%;
+    height: 93vh;
+    padding: 30px;
+}
+
+.message {
+    width: 50%;
+    /* height: 75px; */
+    padding: 20px;
+
+    border: 1px dashed black;
+}
+
+.sent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+    align-items: end;
+    margin: 10px 0;
+    border: 1px solid red;
+}
+
+.received {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    margin: 10px 0;
+}
+
 
 .r-part-main div {
     overflow-y: scroll;
