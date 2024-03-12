@@ -16,6 +16,28 @@
         width: 100%;
     }
     
+    .contact-name {
+        width: 100%;
+    }
+
+    .files {
+        display: none;
+    }
+
+    .emoticon {
+        display: none;
+
+    }
+
+    .microphone {
+        display: none;
+    }
+
+    .text-message {
+        width: 100%;
+    }
+
+    
     
     
 
@@ -28,6 +50,8 @@
 
 
 @media screen and (min-width: 768px) {
+
+    
 
     .l-part {
         width: 115px;
@@ -52,6 +76,18 @@
     .r-part-main {
         width: calc(100% - 115px);
     }
+
+    .left-p {
+        padding-left: 20px;
+    }
+    
+
+    .all-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 
 
 }
@@ -92,6 +128,10 @@
 
     .r-part-main {
         width: calc(100% - 375px);
+    }
+
+    .left-p {
+        padding-left: 7px;
     }
 
 
