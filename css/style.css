@@ -131,6 +131,67 @@ img {
     /* background-color: brown; */
 }
 
+.notifications {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 90px;
+    background-color: #8EDAFC;
+}
+
+.bell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    border-radius: 50%;
+
+    background-color: #E4E4E4;
+}
+
+.bell i {
+    font-size: 30px;
+    color: #8EDAFC;
+}
+
+.bell-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 10px;
+    width: 80%;
+}
+
+.bell-text h5 {
+    font-size: 16px;
+}
+
+.bell-text a {
+    font-size: 16px;
+    color: #A09E9C;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+
+    background-color:#E4E4E4;
+}
+
+.search input {
+    width: 90%;
+    border: none;
+    border-radius: 25px;
+    padding: 4px;
+}
+
 .peoples {
     width: 100%;
     height: 86.3vh;
@@ -160,6 +221,8 @@ img {
     object-fit: cover;
     border-radius: 50%;
 }
+
+
 
 .l-part-main div {
     overflow-y: scroll;

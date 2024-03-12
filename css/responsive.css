@@ -92,7 +92,28 @@
         display: none;
     }
 
-    
+    .notifications {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .people-name {
+        display: none;
+    }
+
+    .people-image {
+        display: block;
+        width: 100%;
+    }
+
+    .people {
+        display: block;
+    }
+
+
 
 
 
@@ -141,7 +162,7 @@
     }
 
     .peoples {
-        height: 79vh;
+        height: 68.3vh;
     }
 
     .user-avatar {
@@ -173,6 +194,14 @@
 
     .footer-left-part {
         height: 74px;
+    }
+
+    .notifications {
+        display: flex;
+    }
+
+    .search {
+        display: flex;
     }
 
 
