@@ -30,27 +30,27 @@
 @media screen and (min-width: 768px) {
 
     .l-part {
-        width: 15%;
+        width: 115px;
     }
 
     .r-part {
-        width: 85%;
+        width: calc(100% - 115px);
     }
 
     .contact{
-        width: 15%;
+        width: 93px;
     }
 
     .contact-info {
-        width: 85%;
+        width: calc(100% - 93px);
     }
 
     .l-part-main {
-        width: 15%;
+        width: 115px;
     }
 
     .r-part-main {
-        width: 85%;
+        width: calc(100% - 115px);
     }
 
 
@@ -73,11 +73,11 @@
     }
 
     .l-part {
-        width: 30%;
+        width: 375px;
     }
 
     .r-part {
-        width: 70%;
+        width: calc(100% - 375px);
     }
 
     .all-main{
@@ -87,11 +87,11 @@
     }
 
     .l-part-main {
-        width: 30%;
+        width: 375px;
     }
 
     .r-part-main {
-        width: 70%;
+        width: calc(100% - 375px);
     }
 
 
